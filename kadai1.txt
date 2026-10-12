@@ -1,0 +1,209 @@
+Microsoft Windows [Version 10.0.26200.9457]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\ht25a098>node
+Welcome to Node.js v24.21.0.
+Type ".help" for more information.
+>
+(To exit, press Ctrl+C again or Ctrl+D or type .exit)
+>
+
+C:\Users\ht25a098>cd source\repos
+
+C:\Users\ht25a098\source\repos>mkdir hello
+
+C:\Users\ht25a098\source\repos>cd hello
+
+C:\Users\ht25a098\source\repos\hello>code .
+
+C:\Users\ht25a098\source\repos\hello>node app.js
+Hello World
+
+C:\Users\ht25a098\source\repos\hello>ndoe
+'ndoe' は、内部コマンドまたは外部コマンド、
+操作可能なプログラムまたはバッチ ファイルとして認識されていません。
+
+C:\Users\ht25a098\source\repos\hello>node
+Welcome to Node.js v24.21.0.
+Type ".help" for more information.
+> let myname;
+undefined
+> let myage
+undefined
+> let myage;
+Uncaught SyntaxError: Identifier 'myage' has already been declared
+> myname;
+undefined
+> myage;
+undefined
+> MYAGE
+Uncaught ReferenceError: MYAGE is not defined
+> MYAGE;
+Uncaught ReferenceError: MYAGE is not defined
+> scoobyDoo
+Uncaught ReferenceError: scoobyDoo is not defined
+> myname = 'Chris';
+'Chris'
+> myage = 37;
+37
+> myage;
+37
+> myname;
+'Chris'
+> let myDog = 'Rover'
+undefined
+> let myDog = 'Rover'
+Uncaught SyntaxError: Identifier 'myDog' has already been declared
+> myDog
+'Rover'
+> myname = 'Bob';
+'Bob'
+> myage = 40;
+40
+> myage = 40;
+40
+> let yourAge = '20';
+undefined
+> yourAge
+'20'
+> let dolphinGoodbye = 'So long and thanks for all fish';
+undefined
+> dolphinGoodbye
+'So long and thanks for all fish'
+> let iAmAlive = true;
+undefined
+> let test = 6<3;
+undefined
+> iAmAlive
+true
+> test;
+false
+> let myNameArray = ['chris','Bob','Jim'];
+undefined
+> let myNumberArray = [10, 15,40];
+undefined
+> myNameArray[0];
+'chris'
+> myNumberArray[2];
+40
+> let dog = { name : 'ポチ', breed: 'ダルメシアン'};
+undefined
+> dog.name;
+'ポチ'
+> let myNumber = '500';
+undefined
+> typeof myNumber;
+'string'
+> myNumber = 500;
+500
+> typeof myNumber
+'number'
+> const daysInweek = 7;
+undefined
+> const horsInDay = 24;
+undefined
+> daysInweek = 8;
+Uncaught TypeError: Assignment to constant variable.
+> let myInt = 5;
+undefined
+> let myFloat = 6.667;
+undefined
+> myInt;
+5
+> myFloat;
+6.667
+> ytpeof myInt;
+ytpeof myInt;
+       ^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'myInt'
+> typeof myInt;
+'number'
+> typeof myFloat;
+'number'
+> let lotsOfDecimal = 1.766584958675746364;
+undefined
+> lotsOfDecimal;
+1.7665849586757463
+> let twoDecimalPlaces = lotsOfDecimal.toFixed(2);
+undefined
+> twoDecimalPlaces;
+'1.77'
+>
+> let myNumber = '74';
+Uncaught SyntaxError: Identifier 'myNumber' has already been declared
+> myNumber += 3;  // 文字列としてつなげる。
+503
+> myNumber;
+503
+> typeof myNumber;
+'number'
+> myNumber = Number(myNumber) + 3;  // 数値として足す。
+506
+> myNumber;
+506
+>
+> let myNumber = '74';
+Uncaught SyntaxError: Identifier 'myNumber' has already been declared
+> myNumber +=3;
+509
+> let myNumber = '74';
+Uncaught SyntaxError: Identifier 'myNumber' has already been declared
+> let myNumber = '74';
+Uncaught SyntaxError: Identifier 'myNumber' has already been declared
+> 10 + 7;
+17
+> 9 * 8;
+72
+> 60 % 3;
+0
+> let num1 = 10;
+undefined
+> let num2 = 50;
+undefined
+> 9 * num1;
+90
+> num1 ** 3;
+1000
+> num2 / num1;
+5
+> 5 + 10 * 3;
+35
+> num2 % 9 * num1;
+50
+> num2 + num1 / 8 + 2;
+53.25
+> (num2 + num1) / (8 + 2);
+6
+>
+> num1 = 4;
+4
+> num1++;
+4
+> num1;
+5
+> num2 = 6;
+6
+> num2--;
+6
+> num2;
+5
+> ++num1;
+6
+> ++num2;
+6
+>
+> let myNumber = '74';
+Uncaught SyntaxError: Identifier 'myNumber' has already been declared
+> myNumber += 3;  // 文字列としてつなげる。
+512
+> myNumber;
+512
+> typeof myNumber;
+'number'
+> myNumber = Number(myNumber) + 3;  // 数値として足す。
+515
+> myNumber;
+515
+>
+>
